@@ -31,5 +31,8 @@ Projekt przedstawia zestaw testów automatycznych dla formularza kontaktowego do
 - Kroki testowe rejestrowane są za pomocą print() i widoczne w raporcie (sekcja Captured stdout call).
 - Kod został oparty na uniwersalnych metodach, co umożliwia np. wskazywanie elementów do scrollowania dynamicznie.
 
+## 🚀 Uruchomienie testów
+pytest -v --html=reports/report.html
+
 ## 📌 Cel projektu
 Testy przygotowane jako projekt dyplomowy w ramach studiów podyplomowych z testowania oprogramowania.
